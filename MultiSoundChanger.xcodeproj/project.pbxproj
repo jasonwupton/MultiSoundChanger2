@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4743EFA71E91493B0032F5AA /* MultiSoundChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSoundChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4743EFA71E91493B0032F5AA /* MultiSoundChanger2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSoundChanger2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4743EFAA1E91493B0032F5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C34C05E9BD81D579A0C4957 /* Pods_MultiSoundChanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSoundChanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6985C6FD251951F8003C2FDB /* OSD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OSD.framework; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		4743EFA81E91493B0032F5AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4743EFA71E91493B0032F5AA /* MultiSoundChanger.app */,
+				4743EFA71E91493B0032F5AA /* MultiSoundChanger2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			);
 			name = MultiSoundChanger;
 			productName = DynamicsIllusion;
-			productReference = 4743EFA71E91493B0032F5AA /* MultiSoundChanger.app */;
+			productReference = 4743EFA71E91493B0032F5AA /* MultiSoundChanger2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -520,8 +520,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.multisoundchanger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonupton.multisoundchanger2;
+				PRODUCT_MODULE_NAME = MultiSoundChanger;
+				PRODUCT_NAME = MultiSoundChanger2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MultiSoundChanger/Other/MultiSoundChanger-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -545,8 +546,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.multisoundchanger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonupton.multisoundchanger2;
+				PRODUCT_MODULE_NAME = MultiSoundChanger;
+				PRODUCT_NAME = MultiSoundChanger2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MultiSoundChanger/Other/MultiSoundChanger-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4743EFA61E91493B0032F5AA"
-               BuildableName = "MultiSoundChanger.app"
+               BuildableName = "MultiSoundChanger2.app"
                BlueprintName = "MultiSoundChanger"
                ReferencedContainer = "container:MultiSoundChanger.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4743EFA61E91493B0032F5AA"
-            BuildableName = "MultiSoundChanger.app"
+            BuildableName = "MultiSoundChanger2.app"
             BlueprintName = "MultiSoundChanger"
             ReferencedContainer = "container:MultiSoundChanger.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4743EFA61E91493B0032F5AA"
-            BuildableName = "MultiSoundChanger.app"
+            BuildableName = "MultiSoundChanger2.app"
             BlueprintName = "MultiSoundChanger"
             ReferencedContainer = "container:MultiSoundChanger.xcodeproj">
          </BuildableReference>
