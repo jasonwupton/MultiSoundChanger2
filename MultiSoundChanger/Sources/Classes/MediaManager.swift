@@ -35,6 +35,19 @@ final class MediaManagerImpl: MediaManager {
         DistributedNotificationCenter.default().removeObserver(self)
     }
     
+    // Load Apple's OSD.framework at runtime so the app never links against it.
+    private lazy var osdManager: OSDUIHelperProtocol? = {
+        let selector = #selector(OSDUIHelperProtocol.showImage(_:onDisplayID:priority:msecUntilFade:filledChiclets:totalChiclets:locked:))
+        guard let bundle = Bundle(path: "/System/Library/PrivateFrameworks/OSD.framework"), bundle.load(),
+              let managerClass = NSClassFromString("OSDManager") as? NSObject.Type,
+              let shared = managerClass.perform(NSSelectorFromString("sharedManager"))?.takeUnretainedValue(),
+              shared.responds(to: selector) else {
+            Logger.warning("OSD.framework could not be loaded; volume popup disabled")
+            return nil
+        }
+        return unsafeBitCast(shared, to: OSDUIHelperProtocol.self)
+    }()
+    
     // MARK: Public
     
     func listenMediaKeyTaps() {
@@ -43,7 +56,7 @@ final class MediaManagerImpl: MediaManager {
     }
     
     func showOSD(volume: Float, chicletsCount: Int = 16) {
-        guard let manager = OSDManager.sharedManager() as? OSDManager else {
+        guard let manager = osdManager else {
             return
         }
         
