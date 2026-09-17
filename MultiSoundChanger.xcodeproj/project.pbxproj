@@ -32,7 +32,6 @@
 		4743EFA71E91493B0032F5AA /* MultiSoundChanger2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSoundChanger2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4743EFAA1E91493B0032F5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C34C05E9BD81D579A0C4957 /* Pods_MultiSoundChanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSoundChanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6985C6FD251951F8003C2FDB /* OSD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OSD.framework; sourceTree = "<group>"; };
 		6FD0ED04AFD1CC1242C9B3B3 /* Pods-MultiSoundChanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSoundChanger.debug.xcconfig"; path = "Target Support Files/Pods-MultiSoundChanger/Pods-MultiSoundChanger.debug.xcconfig"; sourceTree = "<group>"; };
 		D184B2CD842B856AFFE7DF7E /* Pods-MultiSoundChanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSoundChanger.release.xcconfig"; path = "Target Support Files/Pods-MultiSoundChanger/Pods-MultiSoundChanger.release.xcconfig"; sourceTree = "<group>"; };
 		F3433FCA25B36E16009AAE86 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -125,7 +124,6 @@
 		83889335DD9089B748A33010 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6985C6FD251951F8003C2FDB /* OSD.framework */,
 				4C34C05E9BD81D579A0C4957 /* Pods_MultiSoundChanger.framework */,
 			);
 			name = Frameworks;
